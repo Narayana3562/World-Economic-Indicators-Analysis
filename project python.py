@@ -9,6 +9,7 @@ print(data)
 print("Information: \n",data.info())
 print("Description: \n",data.describe())
 #Remove duplicates rows if present
+# hggff
 data = data.drop_duplicates()
 #Handling missing values
 print("missing values", data.isnull().sum())
